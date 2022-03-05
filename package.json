@@ -1,13 +1,13 @@
 {
-  "name": "simple-node-chat-server",
+  "name": "group-wordle-server",
   "version": "1.0.0",
-  "description": "Simple Node Server for Chat room app powered by Socket.io",
+  "description": "Group Wordle Web Socket Server for connecting clients to each other",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server/server.js"
   },
-  "author": "Bradston Henry",
-  "license": "ISC",
+  "author": "Garrison Whitaker",
   "dependencies": {
     "body-parser": "^1.19.0",
     "express": "^4.17.1",
